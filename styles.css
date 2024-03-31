@@ -3,3 +3,28 @@ body {
     padding: 0;
     font-family: 'Google Sans', arial, sans-serif;
  }
+
+ .header-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.search-bar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: -webkit-fill-available;
+}
+
+.search-button{
+   background: red;
+   width: 100%;
+   color: white;
+}
