@@ -1,3 +1,6 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+
 body {
     margin:0;
     padding: 0;
@@ -24,7 +27,7 @@ body {
 }
 
 .search-button{
-   background: red;
+   background: #E91E63;
    width: 100%;
    color: white;
 }
